@@ -45,3 +45,12 @@ def display_history():
     else:
         for entry in history:
             print(entry)
+# Part 4: Test Your Calculator
+def test_calculator():
+    # Test operations
+    print("Testing operations...")
+    print(add(2, 3))
+    print(subtract(5, 2))
+    print(multiply(4, 5))
+    print(divide(10, 2))
+    print(modulus(10, 3))
